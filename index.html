@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An 8th grade biology learning page with topics, study notes, and an interactive DNA quiz.">
+    <title>8th Grade Biology | Nai's Learning Lab</title>
+    <link rel="icon" type="image/png" href="https://yt3.googleusercontent.com/iAVIB3HbrtwdUaoxpT0UEaVN_mLY5Ena0Dh7vI5TcLf_rDp7IPuYv4SB9TCnAj0_UMsQsN_XWg=s900-c-k-c0x00ffffff-no-rj">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="hero" id="top">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="#top">🧬 Nai's Bio Lab</a>
+            <div class="nav-links">
+                <a href="#topics">Topics</a>
+                <a href="#study-notes">Study Notes</a>
+                <a href="#quiz">Quiz</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <p class="eyebrow">LEARN • EXPLORE • DISCOVER</p>
+            <h1>8th Grade <span>Biology</span> Page</h1>
+            <p class="hero-text">Explore the tiny building blocks of life, understand how cells work, and test what you know with an interactive biology quiz.</p>
+            <div class="hero-actions">
+                <a class="button button-primary" href="#quiz">Take the quiz <span aria-hidden="true">→</span></a>
+                <a class="button button-ghost" href="#topics">Explore topics</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>4</strong><span>Topic groups</span></div>
+                <div><strong>10</strong><span>Quiz questions</span></div>
+                <div><strong>1</strong><span>Curious scientist: you!</span></div>
+            </div>
+        </div>
+        <div class="hero-art" aria-label="DNA illustration" role="img">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="dna-emoji">🧬</div>
+            <span class="float float-one">A · T</span>
+            <span class="float float-two">C · G</span>
+            <span class="float float-three">DNA</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro section-wrap">
+            <div class="section-heading">
+                <p class="eyebrow">WELCOME TO THE LAB</p>
+                <h2>Life is full of <span class="gradient-text">little wonders.</span></h2>
+            </div>
+            <p class="intro-copy">Biology is the study of living things. On this page, you can track the topics you have learned, review key ideas, and check your understanding. Take your time, read carefully, and have fun learning!</p>
+        </section>
+
+        <section class="section-wrap" id="topics">
+            <div class="section-heading">
+                <p class="eyebrow">YOUR LEARNING JOURNEY</p>
+                <h2>Biology topics</h2>
+                <p class="section-description">Here's a snapshot of the topics on your biology journey.</p>
+            </div>
+            <div class="topic-grid">
+                <article class="topic-card topic-green">
+                    <div class="topic-icon">🔬</div>
+                    <span class="status status-done">✓ Topics done</span>
+                    <h3>Cell Theory</h3>
+                    <p>Learn what cells are and why they are the basic units of life.</p>
+                    <ul><li>Cell theory</li><li>Levels of organization</li><li>Cell structures</li></ul>
+                </article>
+                <article class="topic-card topic-blue">
+                    <div class="topic-icon">⚡</div>
+                    <span class="status status-done">✓ Topics done</span>
+                    <h3>Cell Processes</h3>
+                    <p>Explore how cells obtain energy and move materials.</p>
+                    <ul><li>Cellular respiration</li><li>Photosynthesis</li><li>Cell transport</li></ul>
+                </article>
+                <article class="topic-card topic-purple">
+                    <div class="topic-icon">🧬</div>
+                    <span class="status status-done">✓ Topics done</span>
+                    <h3>DNA &amp; Protein Synthesis</h3>
+                    <p>Follow genetic instructions from DNA to proteins.</p>
+                    <ul><li>DNA replication</li><li>Transcription</li><li>Translation</li></ul>
+                </article>
+                <article class="topic-card topic-orange">
+                    <div class="topic-icon">🌱</div>
+                    <span class="status status-progress">In progress</span>
+                    <h3>Gene Expression</h3>
+                    <p>Discover how cells use genes and become specialized.</p>
+                    <ul><li>Gene expression</li><li>Cell specialization</li><li>Cell differentiation</li></ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="study-section" id="study-notes">
+            <div class="section-wrap">
+                <div class="section-heading">
+                    <p class="eyebrow">QUICK REVIEW</p>
+                    <h2>Study notes</h2>
+                    <p class="section-description">A few important ideas to remember before the quiz.</p>
+                </div>
+                <div class="notes-grid">
+                    <article class="note-card">
+                        <span class="note-number">01</span>
+                        <h3>DNA</h3>
+                        <p>DNA stores genetic instructions used by living organisms. In eukaryotic cells, most DNA is found in the nucleus.</p>
+                    </article>
+                    <article class="note-card">
+                        <span class="note-number">02</span>
+                        <h3>Nucleic acids</h3>
+                        <p>DNA and RNA are nucleic acids. DNA contains deoxyribose sugar, while RNA contains ribose sugar.</p>
+                    </article>
+                    <article class="note-card">
+                        <span class="note-number">03</span>
+                        <h3>Central dogma</h3>
+                        <p>In the simplified pathway, DNA is transcribed into RNA, and RNA is translated to help build a protein.</p>
+                    </article>
+                    <article class="note-card">
+                        <span class="note-number">04</span>
+                        <h3>Cell energy</h3>
+                        <p>Mitochondria produce most of the ATP in many eukaryotic cells through cellular respiration.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap quiz-section" id="quiz">
+            <div class="section-heading">
+                <p class="eyebrow">TIME TO TEST YOURSELF</p>
+                <h2>The Biology Challenge 🧪</h2>
+                <p class="section-description">Answer all 10 questions. Multiple-choice questions are worth one point each. You can change answers and submit again.</p>
+            </div>
+            <div class="quiz-layout">
+                <form id="biologyQuiz">
+                    <fieldset class="question-card">
+                        <legend>1. Where is most DNA found in a typical eukaryotic cell?</legend>
+                        <label class="choice"><input type="radio" name="q1" value="ribosome" required> Ribosome</label>
+                        <label class="choice"><input type="radio" name="q1" value="nucleus"> Nucleus</label>
+                        <label class="choice"><input type="radio" name="q1" value="golgi"> Golgi apparatus</label>
+                        <label class="choice"><input type="radio" name="q1" value="cellwall"> Cell wall</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>2. Which two are nucleic acids? <span class="question-hint">Choose both.</span></legend>
+                        <label class="choice"><input type="checkbox" name="q2" value="DNA"> DNA</label>
+                        <label class="choice"><input type="checkbox" name="q2" value="nucleus"> Nucleus</label>
+                        <label class="choice"><input type="checkbox" name="q2" value="RNA"> RNA</label>
+                        <label class="choice"><input type="checkbox" name="q2" value="ribosome"> Ribosome</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>3. What is the process of making RNA from a DNA template?</legend>
+                        <label class="choice"><input type="radio" name="q3" value="translation" required> Translation</label>
+                        <label class="choice"><input type="radio" name="q3" value="transcription"> Transcription</label>
+                        <label class="choice"><input type="radio" name="q3" value="respiration"> Cellular respiration</label>
+                        <label class="choice"><input type="radio" name="q3" value="diffusion"> Diffusion</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>4. Which structures are cell organelles? <span class="question-hint">Choose both.</span></legend>
+                        <label class="choice"><input type="checkbox" name="q4" value="nucleus"> Nucleus</label>
+                        <label class="choice"><input type="checkbox" name="q4" value="shoe"> Shoe</label>
+                        <label class="choice"><input type="checkbox" name="q4" value="ribosome"> Ribosome</label>
+                        <label class="choice"><input type="checkbox" name="q4" value="pencil"> Pencil</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>5. Which organelle produces most cellular ATP?</legend>
+                        <label class="choice"><input type="radio" name="q5" value="mitochondria" required> Mitochondrion</label>
+                        <label class="choice"><input type="radio" name="q5" value="golgi"> Golgi apparatus</label>
+                        <label class="choice"><input type="radio" name="q5" value="nucleolus"> Nucleolus</label>
+                        <label class="choice"><input type="radio" name="q5" value="lysosome"> Lysosome</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>6. Which molecule carries genetic information?</legend>
+                        <label class="choice"><input type="radio" name="q6" value="DNA" required> DNA</label>
+                        <label class="choice"><input type="radio" name="q6" value="ATP"> ATP</label>
+                        <label class="choice"><input type="radio" name="q6" value="water"> Water</label>
+                        <label class="choice"><input type="radio" name="q6" value="glucose"> Glucose</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>7. Which sugar is found in DNA?</legend>
+                        <label class="select-label" for="q7">Choose one answer</label>
+                        <select id="q7" name="q7" required>
+                            <option value="">Choose an answer...</option>
+                            <option value="ribose">Ribose</option>
+                            <option value="deoxyribose">Deoxyribose</option>
+                            <option value="glucose">Glucose</option>
+                            <option value="fructose">Fructose</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>8. What is the process of building a protein using an mRNA message?</legend>
+                        <label class="choice"><input type="radio" name="q8" value="translation" required> Translation</label>
+                        <label class="choice"><input type="radio" name="q8" value="transcription"> Transcription</label>
+                        <label class="choice"><input type="radio" name="q8" value="replication"> DNA replication</label>
+                        <label class="choice"><input type="radio" name="q8" value="photosynthesis"> Photosynthesis</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>9. Which process allows plants to use light energy to make sugars?</legend>
+                        <label class="choice"><input type="radio" name="q9" value="photosynthesis" required> Photosynthesis</label>
+                        <label class="choice"><input type="radio" name="q9" value="fermentation"> Fermentation</label>
+                        <label class="choice"><input type="radio" name="q9" value="translation"> Translation</label>
+                        <label class="choice"><input type="radio" name="q9" value="mitosis"> Mitosis</label>
+                    </fieldset>
+                    <fieldset class="question-card">
+                        <legend>10. What is the basic unit of life?</legend>
+                        <label class="choice"><input type="radio" name="q10" value="atom" required> Atom</label>
+                        <label class="choice"><input type="radio" name="q10" value="organ" > Organ</label>
+                        <label class="choice"><input type="radio" name="q10" value="cell"> Cell</label>
+                        <label class="choice"><input type="radio" name="q10" value="ecosystem"> Ecosystem</label>
+                    </fieldset>
+                    <div class="quiz-actions">
+                        <button class="button button-primary" type="submit">Check my answers ✓</button>
+                        <button class="button button-reset" type="reset">Try again ↻</button>
+                    </div>
+                    <p class="privacy-note">This demo grades answers in your browser. It does not send or save your responses to a server.</p>
+                </form>
+                <aside class="result-card" aria-live="polite">
+                    <div class="result-icon">🏆</div>
+                    <p class="eyebrow">YOUR RESULTS</p>
+                    <h3 id="resultTitle">Ready when you are!</h3>
+                    <div class="score-display"><span id="score">—</span><small>/ 10</small></div>
+                    <p id="feedback">Complete the quiz and click “Check my answers” to see your score.</p>
+                    <div class="progress-track"><div id="scoreBar"></div></div>
+                    <p id="answeredCount" class="answered-count">0 of 10 questions answered</p>
+                    <button id="reviewButton" class="review-button" type="button" hidden>Review missed questions</button>
+                </aside>
+            </div>
+        </section>
+        <section class="closing section-wrap">
+            <div class="closing-icon">🌎</div>
+            <h2>Keep asking big questions.</h2>
+            <p>Every discovery starts with curiosity. Keep exploring the amazing science of life!</p>
+            <a href="#top" class="back-top">Back to top ↑</a>
+        </section>
+    </main>
+    <footer>
+        <p>Made for learning · Nai's Biology Lab · Keep growing your knowledge 🌱</p>
+    </footer>
+</body>
+</html>
